@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto17
+  build:
+    commands:
+      - echo Building the Spring Boot application...
+      - mvn clean install -DskipTests
+
+artifacts:
+  files:
+    - target/*.jar
