@@ -1,9 +1,17 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      java: corretto21
+    commands:
+      - echo "Using Java version:"
+      - java -version
+      - mvn --version
+
   build:
     commands:
-      - echo Building the Spring Boot application...
+      - echo "Building the Spring Boot application..."
       - mvn clean install -DskipTests
 
 artifacts:
