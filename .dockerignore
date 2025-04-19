@@ -1,0 +1,17 @@
+*.iml
+*.log
+.git
+.idea
+
+
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-1:575108927130:repository/springboot-docker-app",
+        "registryId": "575108927130",
+        "repositoryName": "springboot-docker-app",
+        "repositoryUri": "575108927130.dkr.ecr.us-east-1.amazonaws.com/springboot-docker-app",
+        "createdAt": "2025-04-20T00:25:04.741000+05:30",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
